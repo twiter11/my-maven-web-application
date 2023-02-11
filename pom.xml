@@ -91,17 +91,18 @@
 			<scope>provided</scope>
 		</dependency>	
 	</dependencies>
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.4.141:8181/mylandmarktech/repository/tesla-web-releases/</url>
+	      <url>http://172.31.38.15:8081/repository/testla-holiday-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.4.141:8181/mylandmarktech/repository/tesla-webapp-snapshots/</url>
+	      <url>http://172.31.38.15:8081/repository/testla-holiday-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
